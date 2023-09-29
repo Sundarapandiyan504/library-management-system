@@ -1,0 +1,54 @@
+/* Default button styles */
+button {
+  margin-right: 5%;
+  border-style: none;
+  background-color: #3bb19b;
+  font-size: large;
+  font-weight: 450;
+}
+
+/* Default .btn styles */
+.btn {
+  margin-right: 0;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+/* Hover styles for all buttons */
+button:hover, .btn:hover {
+  color: azure;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	/* padding: 12px 0; */
+	background-color:transparent;
+	border-radius: 20px;
+	width: 120px;
+  color: rgb(0, 0, 0);
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+  margin-top: 0%;
+	margin-right: 20px;
+}
+.white_btn:hover, .btn:hover {
+  color: rgb(255, 0, 0);
+}
+
+/* Responsive styles for smaller screens (adjust breakpoints as needed) */
+@media (max-width: 768px) {
+  button {
+    margin-right: 0; /* Remove right margin on smaller screens */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+    font-size: small; /* Decrease font size for smaller screens */
+    font-weight: 500;
+  }
+
+  .btn {
+    font-size: large; /* Decrease font size for smaller screens */
+    font-weight: 500;
+  }
+  
+}

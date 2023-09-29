@@ -1,0 +1,45 @@
+.card{
+    width: 80%;
+   margin-top: 4%;
+    box-shadow:0px 0px 10px 0px black ;
+    color:"black";
+  
+  }
+  
+  
+  /* Mobile view styles */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; /* Adjust card width for smaller screens */
+      /* margin: 0 auto; Center the card horizontally */
+      /* padding: 10px; Add some spacing */
+      box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+        0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+    }
+  
+    /* Adjust text styles for mobile view */
+    .card h1 {
+      font-size: 24px; /* Decrease font size for mobile view */
+    }
+  
+    .card h4 {
+      font-size: 5px; /* Decrease font size for mobile view */
+    }
+  
+    /* Adjust table styles for mobile view */
+    .table {
+      background-color: red;
+     margin-right: 10;
+      font-size: 12px; /* Decrease font size for mobile view */
+    }
+  
+    /* Center table content on mobile */
+    .table th,
+    .table td {
+      text-align: center;
+    }
+  }
+  
+  /* body{
+    width: ;
+  } */
